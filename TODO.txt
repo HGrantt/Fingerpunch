@@ -1,0 +1,11 @@
+HARRY-ponken:
+
+Goran:
+
+
+Båda:
+    display health
+
+    doxygen
+    gcc warnings
+    minnesläckor

@@ -1,0 +1,14 @@
+#Kompilatorn som används:
+CC=g++
+#flaggor till kompilatorn:
+CFLAGS=-std=c++11
+
+all: game
+
+game:
+	$(CC) $(CFLAGS) $(shell find fingerpunch/src -type f -name *.cpp) -lSDL2 -lSDL2_image -lSDL2_mixer -o fingerpunch
+
+clean:
+	rm -rf *.o fingerpunch
+run:	
+	./fingerpunch
